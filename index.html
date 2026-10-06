@@ -1,44 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            margin-top: 100px;
-            background: #f5f5f5;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Madhusudan Bhosale, Java developer with 7 years of experience building reliable backend systems and enterprise applications." />
+  <title>Madhusudan Bhosale | Java Developer</title>
 
-        h1 {
-            color: #0d6efd;
-        }
-
-        p {
-            font-size: 20px;
-        }
-
-        button {
-            padding: 12px 25px;
-            border: none;
-            background: #0d6efd;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #084298;
-        }
-    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Madhusudan Bhosale home">MS<span>.</span></a>
 
-<h1>Welcome!</h1>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Menu</span>
+    </button>
 
-<p>Developed with love for Programming!</p>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#profile">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<button onclick="alert('Hello!')">Click Me, I do nothing!</button>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Java Developer | 7 Years Experience</p>
+          <h1>I build dependable backend systems for real business work.</h1>
+          <p class="hero-copy">
+            I design and develop Java applications with clean APIs, stable integrations, database-backed workflows, and
+            production-minded engineering practices.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Work</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="metrics" aria-label="Career highlights">
+      <div>
+        <strong>7+</strong>
+        <span>Years Java experience</span>
+      </div>
+      <div>
+        <strong>API</strong>
+        <span>Design and integration</span>
+      </div>
+      <div>
+        <strong>DB</strong>
+        <span>SQL and data workflows</span>
+      </div>
+      <div>
+        <strong>Cloud</strong>
+        <span>Deployment-ready systems</span>
+      </div>
+    </section>
+
+    <section id="profile" class="section two-column">
+      <div class="reveal">
+        <p class="section-label">Profile</p>
+        <h2>Backend thinking with full product responsibility.</h2>
+      </div>
+      <div class="section-copy reveal">
+        <p>
+          I work across the service layer, database layer, and user-facing delivery flow. My strength is turning
+          requirements into reliable Java solutions that are easy to support, extend, and hand over.
+        </p>
+        <p>
+          I care about readable code, clear communication, and practical architecture: the kind that helps teams ship
+          faster without making the next change harder.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="section-label">Technical Stack</p>
+        <h2>Tools I use to build, integrate, and maintain systems.</h2>
+      </div>
+
+      <div class="stack-grid">
+        <article class="reveal">
+          <span>01</span>
+          <h3>Java Engineering</h3>
+          <p>Core Java, OOP, collections, exception handling, multithreading basics, and clean service design.</p>
+        </article>
+        <article class="reveal">
+          <span>02</span>
+          <h3>Spring Ecosystem</h3>
+          <p>Spring Boot applications, REST endpoints, validation, dependency injection, and layered architecture.</p>
+        </article>
+        <article class="reveal">
+          <span>03</span>
+          <h3>Database Work</h3>
+          <p>SQL queries, schema-aware development, stored data workflows, reporting, and performance-minded access.</p>
+        </article>
+        <article class="reveal">
+          <span>04</span>
+          <h3>Frontend Delivery</h3>
+          <p>HTML, CSS, JavaScript, responsive pages, forms, and practical user interfaces for business applications.
+          </p>
+        </article>
+        <article class="reveal">
+          <span>05</span>
+          <h3>Integrations</h3>
+          <p>REST services, JSON contracts, third-party APIs, authentication flows, and system-to-system communication.
+          </p>
+        </article>
+        <article class="reveal">
+          <span>06</span>
+          <h3>Delivery Practices</h3>
+          <p>Git, debugging, code reviews, deployment support, documentation, and production issue analysis.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section two-column">
+      <div class="reveal">
+        <p class="section-label">Experience</p>
+        <h2>Seven years across enterprise Java application work.</h2>
+      </div>
+
+      <div class="experience-list reveal">
+        <div>
+          <span>01</span>
+          <h3>Application Development</h3>
+          <p>Building Java modules, business logic, APIs, validation flows, and database-connected features.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <h3>Maintenance and Enhancement</h3>
+          <p>Improving existing applications, resolving production defects, refactoring risky logic, and adding
+            features.
+          </p>
+        </div>
+        <div>
+          <span>03</span>
+          <h3>Team Collaboration</h3>
+          <p>Working with analysts, QA, managers, and developers to convert requirements into shipped outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="section-label">Project Areas</p>
+        <h2>Profile built around the kind of work clients and recruiters scan for.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <span>Enterprise Apps</span>
+          <h3>Business workflow platforms</h3>
+          <p>Role-based flows, validations, dashboards, reporting, and backend processing for daily operations.</p>
+        </article>
+        <article class="project-card reveal">
+          <span>Service Layer</span>
+          <h3>REST API development</h3>
+          <p>Clean request and response contracts, exception handling, status codes, and reusable service components.
+          </p>
+        </article>
+        <article class="project-card reveal">
+          <span>Data Systems</span>
+          <h3>Database-backed features</h3>
+          <p>Reliable CRUD workflows, SQL tuning awareness, reports, and consistent data handling across modules.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="section-label reveal">Contact</p>
+      <h2 class="reveal">Let us build something reliable.</h2>
+      <div class="contact-actions reveal">
+        <a class="contact-link" href="mailto:msbhosale@example.com">msbhosale@duck.com</a>
+        <a class="contact-link" href="tel:+917385205678">+91 73 8520 5678</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Madhusudan Bhosale</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
